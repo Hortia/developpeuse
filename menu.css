@@ -16,7 +16,8 @@ nav ul li
     width: 20%;
     text-align: center;
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
     font-family: "Avenir", Arial, Helvetica, sans-serif;
 }
 nav ul::after

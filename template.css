@@ -1,0 +1,43 @@
+.main
+{
+    margin-bottom: 5rem;
+}
+.presentation img
+{
+    max-width: 600px;
+}
+.presentation
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.description
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Avenir", Arial, Helvetica, sans-serif;
+
+}
+.description h2
+{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    color: #A72420;
+}
+.description p
+{
+    font-size: 1.5rem;
+    word-spacing: 0.5rem;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+}
+.description p span
+{
+    display: block;
+}
