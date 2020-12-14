@@ -80,3 +80,25 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
 }
+@media all and (max-width: 500px)
+{
+    #paragraphe
+    {
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #paragraphe p
+    {
+        text-align: center;
+    }
+    .services ul
+    {
+        flex-direction: column;
+        margin-bottom: 0rem;
+    }
+    .services li
+    {
+        margin-bottom: 2rem;
+    }
+}
