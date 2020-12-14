@@ -192,7 +192,8 @@ body
     }
     #nosprojets img
     {
-        max-width: 400px;
+        max-width: 350px;
+        max-height: auto;
         margin: 1rem 1rem;
     }
     #nosprojets h3
