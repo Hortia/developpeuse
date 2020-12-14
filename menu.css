@@ -72,9 +72,16 @@ nav > ul li:hover .sous
 }
 @media all and (max-width: 900px)
 {
-    nav
+    nav ul
     {
         display: flex;
         flex-direction: column;
+    }
+    nav ul li
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-bottom: 1rem;
     }
 }
