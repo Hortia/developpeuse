@@ -178,4 +178,8 @@ table {
         max-height: 20px;
         max-width: 20px;
     }
+    #liste
+    {
+        flex-direction: column;
+    }
 }
