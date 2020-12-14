@@ -35,4 +35,8 @@
     {
     max-width: 200px;
     }
+    .calltoaction a
+    {
+        font-size:1.1rem;
+    }
 }
