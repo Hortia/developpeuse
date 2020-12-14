@@ -41,3 +41,21 @@
 {
     display: block;
 }
+@media all and (max-width: 900px)
+{
+    .presentation
+    {
+        flex-direction: column;
+    }
+    .presentation img
+    {
+        max-width: 500px;
+    }
+}
+@media all and (max-width: 500px)
+{
+    .presentation img
+    {
+        max-width: 300px;
+    }
+}
