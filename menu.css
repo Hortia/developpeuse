@@ -1,0 +1,79 @@
+/*reset CSS*/
+
+nav
+{
+    width: 100%;
+    background-color: white;
+    position: sticky;
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav ul li
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    font-size: 1.5rem;
+    font-family: "Avenir", Arial, Helvetica, sans-serif;
+}
+nav ul::after
+{
+    content:"";
+    display: table;
+    clear: both;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #A2CABF;
+    padding: 10px 0px;
+}
+nav a:hover
+{
+    color: #A72420;
+}
+.sous
+{
+    display: none;
+    box-shadow: 0px 1px 2px #ccc;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous
+{
+    display: block;
+}
+.sous li
+{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a 
+{
+    padding:10px;
+    border-bottom: none;
+}
+.sous a:hover
+{
+    border-bottom: none;
+    background-color: #ccc;
+}
+.deroulant > a::after
+{
+    content:"";
+    font-size: 12px;
+}
+@media all and (max-width: 900px)
+{
+    nav
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}

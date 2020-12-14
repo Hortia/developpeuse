@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes"/><!-- trouver attribut content : ici gestion de l'adaptation à l'écran , le content permet une adaptation constante à la largeur de l'écran du device utiliser; le user-scalable=no est pour empecher le zoom--> 
     <link rel="stylesheet" href="./accueil.css" />
+    <link rel="stylesheet" href="./menu.css"/>
     <link rel="stylesheet" href="./header-footer.css" />
     <!--chemin vers feuille CSS-->
     <!--[if lte IE 9]>
@@ -23,25 +24,33 @@
                 <img src="./image/logo1sansfondpetit.png" alt="logobyhortense">
             </a>
         </div>
-        <div id="reseaux">
-            <ul>
-                <li>
-                    <a href="https://www.instagram.com/ladeveloppeuse/?hl=fr" target="_blank" title="instagram">
-                        <img class="iconheader" src="./image/iconscouleurs/instagram.png" alt="instalogo">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/company/la-developpeuse" target="_blank" title="linkedinladeveloppeuse" alt="linkedin">
-                        <img class="iconheader" src="./image/iconscouleurs/linkedin.png" alt="linkedinlogo">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.pinterest.com.au/hortensedevweb/_saved/" target="_blank" title="pinsterest">
-                        <img class="iconheader" src="./image/iconscouleurs/pinterest.png" alt="pinterestlogo">
-                    </a>
-                </li>
-            </ul>
-        </div>        
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li class="deroulant"><a href="./marketing.html">Marketing</a>
+                        <ul class="sous">
+                            <li><a href="./marketing.html">Nos services</a></li>
+                            <li><a href="https://survey.alchemer.eu/s3/90300078/Devis-marketing" target="_blank" title="devismarketing" alt="faire un devis marketing">Faire un devis</a></li>
+                        </ul>
+                    </li>
+                    <li class="deroulant"><a href="./devweb.html">Web</a>
+                        <ul class="sous">
+                            <li><a href="./devweb.html">Nos services</a></li>
+                            <li><a href="./templates.html">Nos templates web</a></li>
+                            <li><a href="https://survey.alchemer.eu/s3/90300015/devis-d-veloppement-web" target="_blank">Faire un devis</a></li>
+                        </ul></li>
+                    <li class="deroulant"><a href="./design.html">Design</a>
+                        <ul class="sous">
+                            <li><a href="./design.html">Nos services</a></li>
+                            <li><a href="https://survey.alchemer.eu/s3/90300205/Devis-design" target="_blank">Faire un devis</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://survey.alchemer.eu/s3/90301375/formulaire-de-contact" target="_blank">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+         
     </section>
     <section class="main">
         <div id="slogan">
@@ -103,6 +112,25 @@
                     </li>
                 </ul>
             </div>
+            <div id="reseaux">
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/ladeveloppeuse/?hl=fr" target="_blank" title="instagram">
+                            <img class="iconheader" src="./image/iconscouleurs/instagram.png" alt="instalogo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/la-developpeuse" target="_blank" title="linkedinladeveloppeuse" alt="linkedin">
+                            <img class="iconheader" src="./image/iconscouleurs/linkedin.png" alt="linkedinlogo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com.au/hortensedevweb/_saved/" target="_blank" title="pinsterest">
+                            <img class="iconheader" src="./image/iconscouleurs/pinterest.png" alt="pinterestlogo">
+                        </a>
+                    </li>
+                </ul>
+            </div>      
         </div>
         <div id="copyright">
             <p>&copy; copyright 2020 ladeveloppeuse.com</p>
