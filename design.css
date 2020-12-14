@@ -87,6 +87,10 @@
     {
         max-width: 600px;
     }
+    .explication ul
+    {
+        flex-direction: column;
+    }
     .explication p
     {
         max-width: 200px;
