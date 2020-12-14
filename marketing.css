@@ -121,4 +121,9 @@
     {
         margin-bottom: 2rem;
     }
+    .services p
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
