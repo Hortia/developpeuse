@@ -101,7 +101,7 @@ body
 .container
 {
     position: relative;
-    width: 50%;
+    width: 60%;
 }
 .image
 {
@@ -149,4 +149,11 @@ body
     justify-content: space-between;
     max-width: 80%;
 
+}
+@media all and (max-width : 500px)
+{
+    .container
+    {
+        width: 80%;
+    }
 }

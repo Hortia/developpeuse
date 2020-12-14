@@ -171,3 +171,11 @@ table {
     margin-bottom: 4rem;
     color: #A2CABF;
 }
+@media all and (max-width: 500px)
+{
+    .iconscom
+    {
+        height: auto;
+        max-width: 20px;
+    }
+}
