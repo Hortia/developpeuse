@@ -97,7 +97,7 @@
     }
     .services p
     {
-        max-width: 200px;
+        max-width: 300px;
     }
 }
 @media all and (max-width: 500px)
