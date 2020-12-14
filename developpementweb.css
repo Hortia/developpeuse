@@ -254,6 +254,10 @@ body
     {
         font-size: 1.3rem;
     }
+    #nosprojets span
+    {
+        width: auto;
+    }
     #nosprojets p
     {
         max-width: 90%;
