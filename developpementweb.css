@@ -149,6 +149,21 @@ body
     word-spacing: 0.5rem;
     max-width: 600px;
 }
+@media ann and (max-width: 900px)
+{
+    #paragraphe1
+    {
+        max-width: 600px;
+    }  
+    #methodedetravail ul
+    {
+        flex-direction: column;
+    } 
+    #nosprojets img
+    {
+        max-width: 400px;
+    }
+}
 @media all and (max-width: 500px)
 {
     #paragraphe1
