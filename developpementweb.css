@@ -93,12 +93,11 @@
 #nosprojets h2
 {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     color: #8C041D;
     margin-top: 5rem;
-    margin-bottom: 5rem;
 }
 #nosprojets li
 {
@@ -134,4 +133,43 @@
     font-size: 1.3rem;
     word-spacing: 0.5rem;
     max-width: 600px;
+}
+@media all and (max-width: 500px)
+{
+    #paragraphe1
+    {
+        flex-direction: column;
+        max-width: auto;
+    }
+    #methodedetravail ul
+    {
+        flex-direction: column;
+    }
+    #methodedetravail img
+    {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    #nosprojets li
+    {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #nosprojets img
+    {
+        max-width: 400px;
+        margin: 1rem 1rem;
+    }
+    #nosprojets h3
+    {
+        font-size: 1.5rem;
+    }
+    #nosprojets p
+    {
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
 }
