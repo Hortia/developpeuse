@@ -36,6 +36,8 @@ body
     display:flex;
     flex-direction: row;
     margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 #paragraphe1 p
 {
@@ -72,6 +74,11 @@ body
     color: #8C041D;
     margin-top: 5rem;
     margin-bottom: 5rem;
+}
+#listing
+{
+    display: flex;
+    flex-direction: row;
 }
 #methodedetravail ul
 {
@@ -150,7 +157,29 @@ body
     word-spacing: 0.5rem;
     max-width: 600px;
 }
-@media ann and (max-width: 900px)
+@media all and (max-width: 1100px)
+{
+    #listing
+    {
+        flex-direction: column;
+    }
+    #methodedetravail li
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #methodedetravail img
+    {
+        max-width: 300px;
+        margin-bottom: 3rem;
+    }
+    #methodedetravail p
+    {
+        max-width: 350px;
+    }
+
+}
+@media all and (max-width: 900px)
 {
     #paragraphe1
     {
