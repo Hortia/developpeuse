@@ -82,6 +82,10 @@
 }
 @media all and (max-width:900px)
 {
+    #paragraphe p
+    {
+        max-width: 600px;
+    }
     .services p
     {
         max-width: 200px;
