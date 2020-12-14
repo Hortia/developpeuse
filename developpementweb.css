@@ -175,6 +175,7 @@ body
     #methodedetravail img
     {
         max-width: 300px;
+        max-height: 160px;
         margin-bottom: 3rem;
     }
     #methodedetravail p
