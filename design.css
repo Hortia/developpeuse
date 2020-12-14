@@ -91,9 +91,13 @@
     {
         flex-direction: column;
     }
+    .explications img
+    {
+        max-width: 400px;
+    }
     .explication p
     {
-        max-width: 200px;
+        max-width: 350px;
     }
 }
 @media all and (max-width: 500px)
