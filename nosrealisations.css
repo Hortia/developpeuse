@@ -1,0 +1,29 @@
+p
+{
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+.listing
+{
+    max-width: 600px;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3
+{
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #A72420;
+    text-align: center;
+}
+img
+{
+    max-width: 600px;
+}
