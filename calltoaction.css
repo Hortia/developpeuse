@@ -29,3 +29,10 @@
 {
     color: #A2CABF;
 }
+@media all and (max-width: 500px)
+{
+    .calltoaction
+    {
+    max-width: 200px;
+    }
+}
