@@ -150,6 +150,13 @@ body
     max-width: 80%;
 
 }
+@media all and (max-width: 900px)
+{
+    .container
+    {
+        width: 80%;
+    }
+}
 @media all and (max-width : 500px)
 {
     .container
