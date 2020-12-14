@@ -83,6 +83,10 @@
 }
 @media all and (max-width: 900px)
 {
+    #paragraphe p
+    {
+        max-width: 600px;
+    }
     .explication p
     {
         max-width: 200px;
