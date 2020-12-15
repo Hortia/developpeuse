@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes"/><!-- trouver attribut content : ici gestion de l'adaptation à l'écran , le content permet une adaptation constante à la largeur de l'écran du device utiliser; le user-scalable=no est pour empecher le zoom--> 
     <link rel="stylesheet" href="./accueil.css" />
     <link rel="stylesheet" href="./menu.css"/>
-    <link rel="stylesheet" href="./template.css"/>
+    <link rel="stylesheet" href="./templateaccueil.css"/>
     <link rel="stylesheet" href="./header-footer.css" />
     <link rel="stylesheet" href="./calltoaction.css">
     <!--chemin vers feuille CSS-->
@@ -39,7 +39,11 @@
                     <li class="deroulant"><a href="./devweb.html">Web</a>
                         <ul class="sous">
                             <li><a href="./devweb.html">Nos services</a></li>
-                            <li><a href="./templates.html">Nos templates web</a></li>
+                            <li class="deroulant"><a href="./templates.html">Nos templates web</a></li>
+                            <ul class="sousous">
+                                <li><a href="./templateclassique.html">Templates Minimalistes</a></li>
+                                <li><a href="./templatemoderne.html">Templates Modernes</a></li>
+                            </ul>
                             <li><a href="https://survey.alchemer.eu/s3/90300015/devis-d-veloppement-web" target="_blank">Faire un devis</a></li>
                         </ul></li>
                     <li class="deroulant"><a href="./design.html">Design</a>
@@ -60,17 +64,24 @@
                     <h1>TEMPLATES SITE WEB</h1>    
         </div>
         <div class="presentation">
-            <img src="./template/presentation template fashion classic.png">
-            <div class="description">
-                <h2>Template website e-commerce minimaliste</h2>
-                <p>
-                    <span>Avec ce template optez pour un site e-commerce épuré et fonctionnel. Ce modèle de site est parfait si vous souhaitez développez un site internet intemporel.</span> <span>Pour les sites internet e-commerce, votre but est que les visiteurs du sites y passent un maximum de temps. Plus les gens resteront sur votre site internet, plus ils auront de chance de trouver un article qui leur plait, et donc de valider un panier !</span><span> Les nombreux call to action donne envie aux utilisateurs de vister votre site internet.</span> <span>Le plus : une utilisation simplifiée adaptée à la majorité des visiteurs.</span>
-                </p>
+            <div class="containers">
+                <div id="containerminimaliste">
+
+                        <a href="./templateclassique.html">
+                            <img src="./template/miniaturetemplateminimaliste.png">
+                        </a>
+                        <h2>Template website e-commerce minimaliste</h2>
+                    </div>
+                <div id="containermoderne">
+                            <a href="./templatemoderne.html">
+                                <img src="./template/miniaturetemplatemoderne.png">
+                            </a>
+                    <h2>Template website moderne</h2>
+                </div>
+            </div>
                 <div class="calltoaction">
                     <a href="https://survey.alchemer.eu/s3/90300015/devis-d-veloppement-web" target="_blank" title="demanderundevis" alt="pour demander un devis envoyer mail à...">Demander un devis</a>
                 </div>
-            </div>
-
         </div>
     </section>
         <section class="footer">

@@ -1,0 +1,109 @@
+.containers
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+#containerminimaliste
+{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.containers h2
+{
+    margin-top: 3rem;
+    font-family: "Avenir", Arial, Helvetica, sans-serif;
+    color: #A72420;
+    font-size: 1.5rem;
+    justify-content: space-around;
+}
+#containermoderne h2
+{
+    margin-left: 15%;
+    margin-right: auto;
+}
+#containerminimaliste img
+
+    {
+        /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+        -webkit-transition: all 1s ease; /* Safari et Chrome */
+        -moz-transition: all 1s ease; /* Firefox */
+        -ms-transition: all 1s ease; /* Internet Explorer 9 */
+        -o-transition: all 1s ease; /* Opera */
+        transition: all 1s ease;
+        }
+#containerminimaliste img:hover
+{
+    -webkit-transform:scale(1.25); /* Safari et Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* Internet Explorer 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+#containermoderne
+{
+    max-width: 600px;
+    flex-direction: column;
+}
+#containermoderne img
+
+    {
+        /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+        -webkit-transition: all 1s ease; /* Safari et Chrome */
+        -moz-transition: all 1s ease; /* Firefox */
+        -ms-transition: all 1s ease; /* Internet Explorer 9 */
+        -o-transition: all 1s ease; /* Opera */
+        transition: all 1s ease;
+        }
+#containermoderne img:hover
+{
+    -webkit-transform:scale(1.25); /* Safari et Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* Internet Explorer 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+@media all and (max-width:900px)
+{
+    .containers
+    {
+        flex-direction: column;
+    }
+    .containers h2
+    {
+        font-size: 1.5rem;
+    }
+    #containerminimaliste
+    {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
+    }
+    #containermoderne
+    {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media all and (max-width:500px)
+{
+    #containerminimaliste
+    {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
+    }
+    #containermoderne
+    {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

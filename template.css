@@ -41,6 +41,27 @@
 {
     display: block;
 }
+.figure
+{
+    display: flex;
+    flex-direction: column;
+}
+.figure a
+{
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Avenir", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #A2CABF;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.figure a:hover
+{
+    cursor: pointer;
+    color: black;
+}
 @media all and (max-width: 900px)
 {
     .presentation
