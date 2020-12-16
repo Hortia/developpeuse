@@ -1,0 +1,54 @@
+/* 
+    animation header
+    hortense lemaire
+*/
+
+
+
+
+@-webkit-keyframes STAR-MOVE {
+	from {
+		left: 0;
+		top: 0;
+	}
+	to { 
+		left: -10000px;
+		top: -2000px;
+	}
+}
+
+.top-header 
+{
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 200s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.anim-large {
+	background: url(./image/animationheader/midground.png) repeat 20% 20%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 200;
+    max-height: 300px;
+	
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 350s;
+	-webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation: STAR-MOVE 350s linear infinite;
+    animation: STAR-MOVE 350s linear infinite;
+}
+
+.anim-moyenne {
+	background: url(./image/animationheader/foreground.png) repeat 35% 35%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 300;
+    max-height: 300px;
+	
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 300s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}

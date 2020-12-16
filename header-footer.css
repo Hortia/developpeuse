@@ -66,13 +66,18 @@ table {
     display: flex;
     flex-direction: column;
 }
-#logo
+.top-header
+{
+ display: flex;
+ flex-direction: column;
+}
+.top-header #logo
 {
     max-height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
-#logo img
+.top-header #logo a img
 {
     max-width: 400px;
     margin-bottom: 3rem;
