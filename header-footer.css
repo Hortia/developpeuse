@@ -187,4 +187,12 @@ table {
     {
         flex-direction: column;
     }
+    #logo
+    {
+        max-height: 300px;
+    }
+    #logo img
+    {
+        max-height: 200px;
+    }
 }
