@@ -29,12 +29,12 @@ nav ul::after
 nav a{
     display: block;
     text-decoration: none;
-    color: #A2CABF;
+    color: black;
     padding: 10px 0px;
 }
 nav a:hover
 {
-    color: #A72420;
+    color: #b0b0b0;
 }
 .sous
 {
@@ -63,7 +63,7 @@ nav > ul li:hover .sous
 .sous a:hover
 {
     border-bottom: none;
-    background-color: #ccc;
+    background-color: #F25E50;
 }
 .deroulant > a::after
 {

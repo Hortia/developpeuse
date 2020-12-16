@@ -28,7 +28,7 @@
     text-align: center;
     margin-bottom: 5rem;
     font-size: 2rem;
-    color: #A72420;
+    color: #F25E50;
 }
 .description p
 {
@@ -53,14 +53,14 @@
     font-family: "Avenir", Arial, Helvetica, sans-serif;
     font-size: 2rem;
     text-decoration: none;
-    color: #A2CABF;
+    color: #292828;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
 .figure a:hover
 {
     cursor: pointer;
-    color: black;
+    color: #F25E50;
 }
 @media all and (max-width: 900px)
 {

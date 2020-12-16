@@ -62,19 +62,19 @@ table {
 }
 .header
 {
-    background-color: #8C041D;
+    background-color: #F25E50;
     display: flex;
     flex-direction: column;
 }
 #logo
 {
-    max-height: 300px;
+    max-height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
 #logo img
 {
-    max-width: 300px;
+    max-width: 400px;
     margin-bottom: 3rem;
     margin-top: 2rem;
 }
@@ -102,7 +102,7 @@ table {
 .footer
 {
 
-    background-color:#8C041D;
+    background-color:#F25E50;
     padding-bottom: 3rem;
 }
 #liste
@@ -126,7 +126,7 @@ table {
     margin-top: 1rem;
     margin-bottom: 1rem;
     justify-content: space-between;
-    color: white;
+    color: black;
     opacity: 1.0;
 }
 .foot2
@@ -137,7 +137,7 @@ table {
     margin-right: 5%;
     align-items: flex-end;
     width: 50%;
-    color: white;
+    color: black;
 }
 .iconscom
 {
@@ -151,19 +151,19 @@ table {
     flex-direction: row;
     margin-bottom: 1rem;
     font-family: 'Avenir',Arial, Helvetica, sans-serif;
-    color: #A2CABF;
+    color: black;
 }
 .footer a
 {
     margin-bottom: 1rem;
     font-family: 'Avenir',Arial, Helvetica, sans-serif;
-    color: #A2CABF;
+    color: black;
     margin-top: 0.1rem;
     text-decoration: none;
 }
 .footer a:hover
 {
-    color: black;
+    color: #B0B0B0;
 }
 .foot2 li
 {
@@ -174,7 +174,7 @@ table {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 4rem;
-    color: #A2CABF;
+    color: black;
 }
 @media all and (max-width: 500px)
 {
