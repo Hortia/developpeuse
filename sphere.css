@@ -1,0 +1,151 @@
+.titre
+{
+  transform: translateY(-450px) translateX(100px);
+}
+  .stage
+  {
+      width: 480px;
+      height: 500px;
+      margin: 1rem auto;
+      position: relative;
+      perspective: 1600px;
+  }
+  .sphere
+  {
+      transform-style: preserve-3d;
+      transform-origin: 100px 50%;
+      position: absolute;
+      top: 120px;
+      left: 140px;
+  }
+  .sphere span
+  {
+      display: block;
+      border-radius: 100%;
+      border: 2px solid #B0B0B0;
+      height: 200px;
+      width: 200px;
+      position: absolute;
+  }
+  .cercle {
+    transform: rotateY(180deg) translateZ(100px);
+  }
+  .horizontal-top
+  {
+    transform: rotateX(40deg) translateY(50px) translateZ(100px);
+  }
+  .horizontal-bottom
+  {
+    transform: rotateX(90deg) translateZ(100px);
+  }
+  .vertical-left
+  {
+    transform: rotateY(-90deg) translateZ(100px);
+  }
+  .vertical-right
+  {
+    transform: rotateY(90deg) translateZ(100px);
+  }
+  @keyframes roundandround {
+    to {
+      transform: rotateX(360deg) rotateY(360deg);
+    }
+  }
+  
+  @keyframes show {
+    to {
+      opacity: 1;
+    }
+  }
+  .scene {
+    width:600px;
+    height:600px;
+    margin:2% auto;
+    perspective: 1000px;
+  }
+  .wrapper {
+    width:100%;
+    height:100%;
+    transform: rotateX(45deg) rotateY(45deg);
+    transform-style: preserve-3d;
+  }
+  .ball {
+    position: relative;
+    width: 70%;
+    height: 70%;
+    margin:0 auto;
+    transform-style:  preserve-3d;
+    animation: roundandround 7.5s 1.3s infinite linear;
+  }
+  .ball .ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border:6px;
+    border-style: solid;
+    border-radius: 50%;
+    opacity: 0;
+    animation: show 0.75s forwards ease-in-out;
+  }
+  .ring:nth-child(1) {
+    color:#B0B0B0;
+    transform: rotateY(40deg);
+    animation-delay: 0s;
+  }
+  .ring:nth-child(2) {
+    color: #B0B0B0;
+    transform: rotateY(80deg);
+    animation-delay: 0.1s;
+  }
+  .ring:nth-child(3) {
+    color: #B0B0B0;
+    transform: rotateY(120deg);
+    animation-delay: 0.1s;
+  }
+  .ring:nth-child(4) {
+    color: #B0B0B0;
+    transform: rotateY(160deg);
+    animation-delay: 0.1s;
+  }
+  .ring:nth-child(5) {
+    color:#B0B0B0;
+    transform: rotateX(40deg);
+    animation-delay: 0s;
+  }
+  .ring:nth-child(6) {
+    color: #B0B0B0;
+    transform: rotateX(80deg);
+    animation-delay: 0.1s;
+  }
+  .ring:nth-child(7) {
+    color: #B0B0B0;
+    transform: rotateX(120deg);
+    animation-delay: 0.1s;
+  }
+  .ring:nth-child(8) {
+    color: #B0B0B0;
+    transform: rotateX(160deg);
+    animation-delay: 0.1s;
+  }
+@media all and (max-width: 500px)
+{
+  .scene {
+    width:350px;
+    height:350px;
+    margin:2% auto;
+    perspective: 1000px;
+    margin: 5rem;
+  }
+  .sphere span
+  {
+    width: 100px;
+    height: 100px;
+  }
+  .titre
+  {
+    max-width: 200px;
+    transform: translateY(-350px) translateX(50px);
+  }
+}
