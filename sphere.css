@@ -135,7 +135,7 @@
     width:350px;
     height:350px;
     margin:2% auto;
-    perspective: 1000px;
+    perspective: 500px;
     margin: 5rem;
   }
   .sphere span
